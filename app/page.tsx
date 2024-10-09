@@ -98,10 +98,10 @@ export default function Home() {
           <div className="usernames">
             {selectedSocial && userData && (
               <p className="sosmed"id="social-output">
-                {selectedSocial === "whatsapp" && `WhatsApp: ${userData.whatsapp}`}
-                {selectedSocial === "linkedin" && `LinkedIn: ${userData.linkedin}`}
-                {selectedSocial === "instagram" && `Instagram: ${userData.instagram}`}
-                {selectedSocial === "facebook" && `Facebook: ${userData.facebook}`}
+                {selectedSocial === "whatsapp" && `${userData.whatsapp}`}
+                {selectedSocial === "linkedin" && `@${userData.linkedin}`}
+                {selectedSocial === "instagram" && `@${userData.instagram}`}
+                {selectedSocial === "facebook" && `${userData.facebook}`}
               </p>
             )}
           </div>
