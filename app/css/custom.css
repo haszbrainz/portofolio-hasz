@@ -1,0 +1,136 @@
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .frame-wrapper {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 1024px;
+  }
+  
+  .desktop .frame {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 115px;
+    position: relative;
+    top: 32px;
+    left: 73px;
+  }
+  
+  .desktop .div {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .group {
+    position: relative;
+    width: 484px;
+    height: 550.91px;
+  }
+  
+  .desktop .img {
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .frame-2 {
+    display: flex;
+    flex-direction: column;
+    width: 695px;
+    align-items: center;
+    gap: 60px;
+    position: relative;
+  }
+  
+  .desktop .frame-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Visby CF-Bold", Helvetica;
+    font-weight: 700;
+    color: #90e0ef;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Visby CF-Medium", Helvetica;
+    font-weight: 500;
+    color: #565656;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .hi-saya-muchammad-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .desktop .hi-saya-muchammad {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    font-family: "Visby CF-Medium", Helvetica;
+    font-weight: 500;
+    color: #565656;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  .social-icons {
+    margin: 20px 74px;
+    display: flex;
+    justify-content: center;
+    gap: 16px; 
+    margin: 20px 74px;
+  }
+  
+  .social-icons .icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer
+    
+  }
+  
+  .usernames {
+    text-align: center;
+    font-family: "Visby CF-Bold", sans-serif;
+    font-size: 40px;
+    color: #000;
+    margin: 20px 74px;
+  }
+  
